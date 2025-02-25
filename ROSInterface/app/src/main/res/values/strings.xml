@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ROS Interface</string>
+    <string name="title_activity_movement">MovementActivity</string>
+</resources>

@@ -1,0 +1,22 @@
+#noGoZoneStatus {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.noGoZone {
+    color: red; /* Red warning text */
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.unlockBtn {
+    margin: 10px;
+    padding: 10px;
+    background-color: #48ec64;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

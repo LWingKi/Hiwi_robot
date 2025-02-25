@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Control</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Robot Control Interface</h1>
+
+    <!-- No-Go Zone Status Text -->
+    <div id="noGoZoneStatus">You are not in the No-Go Zone.</div>
+
+    <!-- Unlock Button -->
+    <button id="unlockButton" class="unlockBtn">Unlock</button>
+
+    <div class="container">
+        <!-- Camera containers -->
+        <div class="cameras">
+            <div id="cameraBox">This is the Selfie Camera</div>
+            <div id="robotCameraBox">This is the Robot Camera</div>
+        </div>
+    </div>
+
+    <!-- Control buttons -->
+    <div class="controls">
+        <div class="grid-container">
+            <button id="moveForward" class="controlBtn">↑</button>
+            <button id="turnLeft" class="controlBtn">←</button>
+            <button id="stop" class="controlBtn stopBtn">STOP</button>
+            <button id="turnRight" class="controlBtn">→</button>
+            <button id="moveBackward" class="controlBtn">↓</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
